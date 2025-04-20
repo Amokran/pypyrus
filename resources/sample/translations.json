@@ -1,0 +1,15 @@
+{
+    "en": {
+        "GREETINGS": "Hello, World!",
+        "SPECIAL_GREETINGS": "Hello {name}!",
+        "SETTINGS": "Settings",
+        "LOGIN_FAILED": "Login failed. Please try again."
+        
+    },
+    "es": {
+        "GREETINGS": "Hola, Mundo!",
+        "SPECIAL_GREETINGS": "Hola {name}!",
+        "SETTINGS": "Configuración",
+        "LOGIN_FAILED": "Error al iniciar sesión. Por favor, inténtalo de nuevo."
+    }
+}

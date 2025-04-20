@@ -1,0 +1,10 @@
+{
+    "en": {
+        "GREETINGS": "You, ugly dev!",
+        "LOGIN_FAILED": "Login failed, you ugly dev!. Please try again."
+    },
+    "es": {
+        "GREETINGS": "¡Hola, friki feo!",
+        "LOGIN_FAILED": "Error al iniciar sesión. Por favor, inténtalo de nuevo, friki feo."
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "GREETINGS": {
+      "type": "generic text",
+      "author": "@dev",
+      "source": "manual",
+      "added" : "2025-04-18",
+      "tags": {
+        "en": ["greetings", ""],
+        "es": ["saludos", ""]
+      },
+      "context_tags": {
+        "en": [""],
+        "es": [""]
+      }
+    },
+    "SPECIAL_GREETINGS": {
+      "type": "generic text",
+      "author": "@dev",
+      "source": "manual",
+      "added" : "2025-04-18",
+      "tags": {
+        "en": ["greetings", "special"],
+        "es": ["saludos", "especial"]
+      },
+      "context_tags": {
+        "en": [""],
+        "es": [""]
+      }
+    }
+  }

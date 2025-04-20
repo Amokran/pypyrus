@@ -1,0 +1,30 @@
+{
+    "GREETINGS": {
+      "type": "generic text",
+      "author": "@dev",
+      "source": "manual",
+      "added" : "2025-04-18",
+      "tags": {
+        "en": ["greetings", ""],
+        "es": ["saludos", ""]
+      },
+      "context_tags": {
+        "en": [""],
+        "es": [""]
+      }
+    },
+    "LOGIN_FAILED": {
+      "type": "generic text",
+      "author": "@dev",
+      "source": "manual",
+      "added" : "2025-04-18",
+      "tags": {
+        "en": ["login", "failure"],
+        "es": ["login", "fallo"]
+      },
+      "context_tags": {
+        "en": [""],
+        "es": [""]
+      }
+    }
+  }
