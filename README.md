@@ -2,18 +2,19 @@
 A python module to help developers getting texts and translations from files.
 
 ## Current state of things
-This is an early versions, and possibly won't accept pull requests at this stage.
+This is an early version, and possibly won't accept pull requests at this stage.
 Anyway, if you're interested in contributing, please open an issue and we can discuss it.
 At this stage, it should be used in a development environment only.
 
 ## Purpose
 The purpose of this module is to help developers getting texts and translations from files.
 I created this as a helper module for my own projects, since I was lacking a proper separation of code and texts.
-Besided, I figured out that I could use it to help me with translations, so I decided to make it a separate module.
+Besides, I figured out that I could use it to help me with translations, so I decided to make it a separate module.
 
 ## Ethics and values
-This module is designed to be used in a responsible way, and I encourage you to use it for good purposes only.
-This should not be used for malicious purposes, such as creating fake news, or spreading hate speech.
+This module is designed to be used in a responsible way. You know what I mean.
+In case you don't, it's easy: don't use this to harm the weak and the helpless. Even if it's people you don't like.
+In any case, try to use it for good, and to help others.
 
 ## Installation
 At the moment, the module is not available on PyPI, so you have to install it from the source.
@@ -208,6 +209,7 @@ See an example:
 ````python
 from pypyrus import translation_manager as TRM
 
+    SAMPLE_QUOTES = None
     try:
         SAMPLE_QUOTES = TRM.TranslationManager( 
             translations_path="resources/quotes",
@@ -217,13 +219,19 @@ from pypyrus import translation_manager as TRM
     except Exception as e_translation_manager:
         print(f"Error loading translations: {e_translation_manager}")        
     
-    print(TRANS_QUOT.load_text_file("waltari")) # Load text from en_waltari.txt
-    TRANS_QUOT.set_active_language("es")        # Change the active language to Spanish
-    print(TRANS_QUOT.load_text_file("waltari")) # Load text from es_waltari.txt
+    print(SAMPLE_QUOTES.load_text_file("waltari")) # Load text from en_waltari.txt
+    SAMPLE_QUOTES.set_active_language("es")        # Change the active language to Spanish
+    print(SAMPLE_QUOTES.load_text_file("waltari")) # Load text from es_waltari.txt
 ````
 
-## Usage of IA models in the development of this module
-I have partly used IA models to help me with the development of this module, but I have not used them to generate any texts or translations.
+## Usage of AI models in the development of this module
+I have partly used AI models to help me with the development of this module, but I have not used them to generate any texts or translations.
 More specifically I have used ChatGPT (GPT-4-turbo), but not all the code is AI generated. Some parts are, others are my own.
+
+# Final Greetings
+Hopefully you can get some use of this module.
+And if not, you know what they say:
+
+> Millennium Hand and Shrimp!!! 
 
 
