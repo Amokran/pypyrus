@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 The format is based on Keep a Changelog
 and this project adheres to Semantic Versioning.
 
+[0.1.2] - 2025-07-04
+
+Fixed
+
+    - Folder structure depicted in the README to match the actual structure. 
+
 [0.1.1] - 2025-07-04
 
 Added
@@ -11,6 +17,7 @@ Added
     - Improved error handling for file loading and parsing.
     - Added support for .txt rich text files in the Metadata class.
     - Enhanced language fallback behavior to allow for more robust translations.
+    - Edited the README to include usage examples.
 
 [0.1.0] - 2025-04-20
 

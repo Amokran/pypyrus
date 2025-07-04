@@ -61,6 +61,7 @@ We'll see the metadata file later.
 Please notice that there are txt files in the folder, mean for larger texts (see usage below).
 Also there are metadata files, which are not mandatory, but highly recommended (see usage below).
 
+````plaintext:
 translations/
 ├── ui-texts/
 │   ├── translations.json
@@ -76,6 +77,7 @@ translations/
 └── quotes/
     ├── en_waltari.txt
     └── es_waltari.txt
+````
     
 ## Basic usage for getting texts and translations
 This module is designed to be used in a very simple way.
