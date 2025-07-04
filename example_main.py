@@ -3,16 +3,17 @@ import translation_manager
 import metadata
 
 def load_translations(lang,json_file):
-    """Cargar traducciones desde un archivo JSON."""
+    """Load translations from a JSON file."""
     with open(json_file, "r", encoding="utf-8") as f:
         translations = json.load(f)
     return translations.get(lang, translations["en"])
 
 def run_example():
-
-    # Legacy usage. Won't use.
+    """Run the example of loading translations and metadata."""
+    
+    # **Legacy usage. Won't use.**
     print("0. Loading translations from JSON file (legacy, won't use)")
-    lang = "en"  # Supongamos que el usuario seleccionó español
+    lang = "en" 
     translations = None
     try:
         translations = load_translations(lang,"resources/sample/translations.json")
@@ -28,7 +29,7 @@ def run_example():
     print(".......")
     print()
 
-    # Current usage (sample path). Loads all data from any translation JSON  in sample path
+    # **Current usage** (sample path). Loads all data from any translation JSON  in sample path
     print("1. Loading translations from JSON file (current usage)")
     SAMPLE_TEXTS = None
     try:
